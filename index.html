@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <!--font awsome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="images/logo.jpg" alt="logo img" style="width:60px ;height: 60px;"></a>
+
+        <nav class="navBar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="faa fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-1.png" alt="item1">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">Rs.350.00</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-2.png" alt="item1">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">Rs.450.00</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-3.png" alt="item1">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">Rs.550.00</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-4.png" alt="item1">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">Rs.650.00</div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">check out now</a>
+        </div>
+    </header>
+
+
+<!-- section 01 -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh of coffe in the morning</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam doloremque qui magni facere, culpa neque minus ex rem labore voluptatibus nobis quibusdam explicabo odit placeat eos nam asperiores? Blanditiis, asperiores.</p>
+            <a href="#" class="btn">Get yours now</a>
+        </div>
+    </section>
+
+<!-- section 2 -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span> us </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/about.jpg" alt="pic">
+            </div>
+
+            <div class="content">
+                <h3>What makes our coffee special?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis neque perspiciatis pariatur quidem veritatis asperiores porro tempore sunt. Deserunt, aperiam?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut adipisci asperiores dignissimos corrupti ab nobis?</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+            
+        </div>
+    </section>
+
+<!-- section 03 -->
+    <section class="menu" id="menu">
+
+        <h1 class="heading"> our <span>menu</span></h1>
+        
+        <div class="box-container">
+            
+            <div class="box">
+                <img src="images/americano coffee type 1.jpg" alt="type1">
+                <h3>Americano Coffee</h3>
+                <div class="price">Rs.450.00 <span>550.00</span></div>
+                <a href="#" class="btn">add a cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/frappe coffee type2.jpg" alt="type2">
+                <h3>Frappe Coffee</h3>
+                <div class="price">Rs.450.00 <span>550.00</span></div>
+                <a href="#" class="btn">add a cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/cappuccino coffee type 3.jpg" alt="type3">
+                <h3>Cappuccino</h3>
+                <div class="price">Rs.450.00 <span>550.00</span></div>
+                <a href="#" class="btn">add a cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/take away coffe type 4.jpg" alt="type4">
+                <h3>Take Away</h3>
+                <div class="price">Rs.450.00 <span>550.00</span></div>
+                <a href="#" class="btn">add a cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/espresso coffe type 5.jpg" alt="type5">
+                <h3>Espresso</h3>
+                <div class="price">Rs.450.00 <span>550.00</span></div>
+                <a href="#" class="btn">add a cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/macchiato coffee type 6.jpg" alt="type6">
+                <h3>Macchiato</h3>
+                <div class="price">Rs.450.00 <span>550.00</span></div>
+                <a href="#" class="btn">add a cart</a>
+            </div>
+        </div>
+
+    </section>
+
+<!-- section 04 -->
+    <section class="products" id="products">
+        <h1 class="heading"> our <span>products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/NGOLD_Master_0.webp" alt="img1">
+                </div>
+                <div class="content">
+                    <h3>Nescafe Gold</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs.899.99 <span>999.99</span></div>
+                </div>
+               
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/NESCAFÉ GOLD Decaf.webp" alt="img2">
+                </div>
+                <div class="content">
+                    <h3>Nescafe Gold</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs.999.99 <span>1099.99</span></div>
+                </div>
+               
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/NGOLD_Master_Crema.webp" alt="img3">
+                </div>
+                <div class="content">
+                    <h3>Nescafe Gold</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs.1099.99 <span>1199.99</span></div>
+                </div>
+               
+            </div>
+
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/NGOLD_Master_Origins_Colombia.webp" alt="img4">
+                </div>
+                <div class="content">
+                    <h3>Nescafe Gold</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs.1399.99 <span>1499.99</span></div>
+                </div>
+               
+            </div>
+
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/NGOLD_Master_Origins_Uganda_Kenya.webp" alt="img5">
+                </div>
+                <div class="content">
+                    <h3>Nescafe Gold</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs.1399.99 <span>1499.99</span></div>
+                </div>
+               
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/NESCAFÉ GOLD Espresso_0.webp" alt="img6">
+                </div>
+                <div class="content">
+                    <h3>Nescafe Gold</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs.1699.99 <span>1899.99</span></div>
+                </div>
+               
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sumatra.webp" alt="img7">
+                </div>
+                <div class="content">
+                    <h3>Nescafe Gold</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs.1899.99 <span>1999.99</span></div>
+                </div>
+               
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/altra.webp" alt="img8">
+                </div>
+                <div class="content">
+                    <h3>Nescafe Gold</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs.1899.99 <span>1999.99</span></div>
+                </div>
+               
+            </div>
+
+        </div>
+    </section>
+
+<!-- section 05    -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">contact <span>us</span></h1>
+
+        <div class="row">
+
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63293.
+            77286866761!2d80.32276068040962!3d7.480618968531475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+            1!3m3!1m2!1s0x3ae3398ab06be8b9%3A0x1f90e4e71e885052!2sKurunegala!5e0!3m2!1sen!2slk!4v1664568463065!5m2!1sen!2slk" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" value="contact now" class="btn">
+            </form>
+        </div>
+    </section>
+
+<!-- section 06 -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog 1.webp" alt="pic1">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">WHY WE LOVE FAIRTRADE COFFEE?</a>
+                    <span>by admin / 25th August, 2021</span>
+                    <p>We’re proud to offer Fairtrade coffee and other certified products. While pretty much everyone has heard of Fairtrade when did it start,.....</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog 2.webp" alt="pic2">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">VALENTINE’S DAY GIFT IDEAS</a>
+                    <span>by admin / 25th August, 2021</span>
+                    <p>Valentine’s is just round the corner but reading this you might be asking what has coffee got to do with the most romantic day of the calendar year?.....</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog 3.webp" alt="pic3">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">IS COFFEE REALLY GOOD FOR YOU?</a>
+                    <span>by admin / 1st December, 2021</span>
+                    <p>Way back when coffee crops grew mostly in Ethiopia and Sudan, but now you’ll find one of the world’s favourite beverages grown in around 70 countries across the globe.....</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- section 07 -->
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+
+        <div class="link">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">products</a>
+            <a href="#">contact</a>
+            <a href="#">blogs</a>
+        </div>
+
+        <div class="credit">created by <span>Tharunga </span> | all right reserved</div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- script js link -->
+    <script src="script.js"></script>
+
+</body>
+</html>
